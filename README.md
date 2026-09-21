@@ -1,6 +1,6 @@
 # fuyuji_robot
 
-浮屿记开发助手仓，对应嗒嗒的 `dada-agent`。
+浮屿记开发助手仓。
 
 本仓库**不是**业务 monorepo。iOS / Android / Web / 后端继续各自独立 git。这里只放跨仓地图、本地路径约定、Agent 启动规则和 skills。
 
