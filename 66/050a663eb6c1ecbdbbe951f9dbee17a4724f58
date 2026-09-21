@@ -1,0 +1,230 @@
+skills/cross-platform-delivery/SKILL.md
+  s_15c332703ca150::t_ff6d0bb4eaddbf 1-135
+.gitignore
+  s_15c332703ca150::t_50d0b293bb1b2e 44-48
+  s_15c332703ca150::t_a7194da77c7cf0 1-43
+doc/project/SkillRouting_DOC.md
+  s_15c332703ca150::t_4864bbfd5bc36c 1-43
+.cursor/rules/ios-xcassets-svg.mdc
+  s_15c332703ca150::t_843388929ca72b 1-35
+PROJECT_GUIDE.md
+  s_15c332703ca150::t_d94c3014e285dd 1-86
+README.md
+  s_15c332703ca150::t_3309baf75bd928 2-35
+doc/project/RepoAddresses_DOC.md
+  s_15c332703ca150::t_8ff2c08dd0321d 1-50
+fuyuji_robot.code-workspace
+  s_15c332703ca150::t_f20df6f2080aa1 1-59
+skills/README.md
+  s_15c332703ca150::t_ffac5bdbb916b6 1-18
+skills/cross-platform-delivery/references/ios-android-alignment-checklist.md
+  s_15c332703ca150::t_30ce792863a822 1-31
+skills-on-demand/README.md
+  s_15c332703ca150::t_485c1fd8ea8876 1-5
+mcp/.mcp.json.example
+  s_15c332703ca150::t_29562b1ff5db03 1-12
+.cursorignore
+  s_15c332703ca150::t_63f3d424e32503 1-25
+doc/project/FuyujiOverview_DOC.md
+  s_15c332703ca150::t_788e15c7cfef63 1-117
+doc/project/LocalPaths_TEMPLATE.md
+  s_15c332703ca150::t_19361a4c7e713e 1-33
+doc/project/SkillIndex_DOC.md
+  s_15c332703ca150::t_1772917e1fe11e 1-54
+skills/cross-platform-delivery/references/api-integration-checklist.md
+  s_15c332703ca150::t_791560bc0b32bc 1-29
+scripts/link-apps.sh
+  s_15c332703ca150::t_d36cd6667033ff 1-26
+doc/project/FuyujiLocalStart_DOC.md
+  s_15c332703ca150::t_5c200233ccadcb 1-91
+.claude/skills/code-review
+  s_15c332703ca150::t_7fcbe1b7498f58 1
+.claude/skills/code-write-doc
+  s_15c332703ca150::t_0871f244618654 1
+.claude/skills/coding-standards
+  s_15c332703ca150::t_5df3cd9abc0e35 1
+.claude/skills/cross-platform-delivery
+  s_15c332703ca150::t_3b833043890ec6 1
+.claude/skills/fix-bug
+  s_15c332703ca150::t_e56cf6de96f01e 1
+.claude/skills/git-commit
+  s_15c332703ca150::t_2b533ca0aeb092 1
+.claude/skills/goal-contract
+  s_15c332703ca150::t_cdbcb8388baf2e 1
+.claude/skills/integration-test
+  s_15c332703ca150::t_4560397b65729f 1
+.claude/skills/plan-work
+  s_15c332703ca150::t_1bc3755f09918c 1
+.claude/skills/refactor
+  s_15c332703ca150::t_966cae426d6e1d 1
+.claude/skills/requirement-analysis
+  s_15c332703ca150::t_269c6207659ba7 1
+.claude/skills/system-design
+  s_15c332703ca150::t_eda2eb8b36aba8 1
+.claude/skills/work-spec
+  s_15c332703ca150::t_c722be56202d3f 1
+.claude/skills/workflow
+  s_15c332703ca150::t_5054d3695d109f 1
+.codex/skills/code-review
+  s_15c332703ca150::t_9c0b226b7055ee 1
+.codex/skills/code-write-doc
+  s_15c332703ca150::t_5acb555e04fe12 1
+.codex/skills/coding-standards
+  s_15c332703ca150::t_9a4ec16c557ba5 1
+.codex/skills/cross-platform-delivery
+  s_15c332703ca150::t_ce1f753f47c148 1
+.codex/skills/fix-bug
+  s_15c332703ca150::t_8afda3504fb504 1
+.codex/skills/git-commit
+  s_15c332703ca150::t_6b38aa580e5a1f 1
+.codex/skills/goal-contract
+  s_15c332703ca150::t_b31bc53daa3817 1
+.codex/skills/integration-test
+  s_15c332703ca150::t_70715e3df1d17d 1
+.codex/skills/plan-work
+  s_15c332703ca150::t_4e2ae12ef0a275 1
+.codex/skills/refactor
+  s_15c332703ca150::t_164e1a07c00690 1
+.codex/skills/requirement-analysis
+  s_15c332703ca150::t_0a3bf9ea215bde 1
+.codex/skills/system-design
+  s_15c332703ca150::t_5c95e4affaa6d5 1
+.codex/skills/work-spec
+  s_15c332703ca150::t_e62a3a168bc50f 1
+.codex/skills/workflow
+  s_15c332703ca150::t_5399c2dfb12b29 1
+.cursor/skills/code-review
+  s_15c332703ca150::t_3fe67ea68f270a 1
+.cursor/skills/code-write-doc
+  s_15c332703ca150::t_e1fc8b00bf11de 1
+.cursor/skills/coding-standards
+  s_15c332703ca150::t_03600a20a7c792 1
+.cursor/skills/cross-platform-delivery
+  s_15c332703ca150::t_81f748e09e728e 1
+.cursor/skills/fix-bug
+  s_15c332703ca150::t_9f9bf0f62f19f1 1
+.cursor/skills/git-commit
+  s_15c332703ca150::t_7cf614270542f6 1
+.cursor/skills/goal-contract
+  s_15c332703ca150::t_1aca43b99bdb8d 1
+.cursor/skills/integration-test
+  s_15c332703ca150::t_491a1bdeeded36 1
+.cursor/skills/plan-work
+  s_15c332703ca150::t_0771cf55053b6c 1
+.cursor/skills/refactor
+  s_15c332703ca150::t_77a65a8065db35 1
+.cursor/skills/requirement-analysis
+  s_15c332703ca150::t_b6181f3f496f7c 1
+.cursor/skills/system-design
+  s_15c332703ca150::t_792c56323b0786 1
+.cursor/skills/work-spec
+  s_15c332703ca150::t_d86deba0a4219d 1
+.cursor/skills/workflow
+  s_15c332703ca150::t_a750c8ac91e77d 1
+AGENTS.md
+  s_15c332703ca150::t_6de1a0194104a8 1
+CLAUDE.md
+  s_15c332703ca150::t_f6babf241528c0 1
+skills/code-review/SKILL.md
+  s_15c332703ca150::t_635a102f009db6 1-501
+skills/code-write-doc/SKILL.md
+  s_15c332703ca150::t_a2927fc2a06bfc 1-266
+skills/code-write-doc/references/01-文档中心搭建方案.md
+  s_15c332703ca150::t_fcd53374778a9a 1-45
+skills/code-write-doc/references/02-CURL示例与文档链接规范.md
+  s_15c332703ca150::t_78033f4ee91925 1-87
+skills/coding-standards/SKILL.md
+  s_15c332703ca150::t_4164d028157d23 1-175
+skills/coding-standards/references/01-通用编码规范.md
+  s_15c332703ca150::t_53f7ed057096bd 1-489
+skills/coding-standards/references/02-外部调用规范.md
+  s_15c332703ca150::t_d7f0fe2a4a2be4 1-637
+skills/coding-standards/references/03-数据层规范.md
+  s_15c332703ca150::t_df769878d8fc85 1-581
+skills/coding-standards/references/04-可观测性规范.md
+  s_15c332703ca150::t_29c366838712c4 1-241
+skills/coding-standards/references/05-异常与错误处理规范.md
+  s_15c332703ca150::t_09a65e21dc4240 1-157
+skills/coding-standards/references/06-性能与并发规范.md
+  s_15c332703ca150::t_5927b21d8e79e7 1-328
+skills/coding-standards/references/07-安全编码规范.md
+  s_15c332703ca150::t_bfaf01f7d20fd8 1-120
+skills/coding-standards/references/08-测试规范.md
+  s_15c332703ca150::t_2c1566d673647a 1-140
+skills/fix-bug/SKILL.md
+  s_15c332703ca150::t_e81d2ee32472aa 1-173
+skills/git-commit/SKILL.md
+  s_15c332703ca150::t_7ae252b0825217 1-184
+skills/goal-contract/SKILL.md
+  s_15c332703ca150::t_24f212f7673b29 1-66
+skills/integration-test/SKILL.md
+  s_15c332703ca150::t_3cdc5eff895562 1-259
+skills/integration-test/agents/openai.yaml
+  s_15c332703ca150::t_a91cca27f1f355 1-4
+skills/plan-work/SKILL.md
+  s_15c332703ca150::t_75788cb9c25bf1 1-299
+skills/plan-work/references/编码实施计划_DOC_模板.md
+  s_15c332703ca150::t_174ec8ef1449bd 1-141
+skills/refactor/SKILL.md
+  s_15c332703ca150::t_159ad754befbad 1-195
+skills/requirement-analysis/SKILL.md
+  s_15c332703ca150::t_b2b6fab0800cfa 1-351
+skills/requirement-analysis/references/原始需求_DOC_模板.md
+  s_15c332703ca150::t_9e598c25f369fd 1-72
+skills/requirement-analysis/references/迭代看板_README_模板.md
+  s_15c332703ca150::t_4f664b542afca8 1-34
+skills/requirement-analysis/references/需求拆解_DOC_模板.md
+  s_15c332703ca150::t_a7ef8e8eb98190 1-412
+skills/system-design/SKILL.md
+  s_15c332703ca150::t_d4bf4979fdff45 1-547
+skills/system-design/references/工时评估_DOC_模板.md
+  s_15c332703ca150::t_6b7e84184b05bc 1-178
+skills/system-design/references/技术方案_01_整体架构设计_模板.md
+  s_15c332703ca150::t_220dbf11300c48 1-238
+skills/system-design/references/技术方案_01_整体设计_简化版模板.md
+  s_15c332703ca150::t_0c9de93685a131 1-158
+skills/system-design/references/技术方案_02_模块设计_模板.md
+  s_15c332703ca150::t_fc60f7c2b51e3c 1-236
+skills/system-design/references/技术方案_03_数据流设计_模板.md
+  s_15c332703ca150::t_4393f7c9291c82 1-214
+skills/system-design/references/技术方案_04_性能设计_模板.md
+  s_15c332703ca150::t_dc53e9b62cef81 1-195
+skills/system-design/references/技术方案_05_安全设计_模板.md
+  s_15c332703ca150::t_5033eb6d19eab8 1-206
+skills/system-design/references/技术方案_06_可观测性设计_模板.md
+  s_15c332703ca150::t_0998fdb4108c53 1-211
+skills/system-design/references/技术方案_07_运行管理控制设计_模板.md
+  s_15c332703ca150::t_4273d4e954adc5 1-207
+skills/system-design/references/技术方案_DOC_模板.md
+  s_15c332703ca150::t_8ed8880ebf6e6b 1-564
+skills/system-design/references/技术方案_README_模板.md
+  s_15c332703ca150::t_1c5eefb112fd90 1-80
+skills/system-design/references/技术方案_接口清单_模板.md
+  s_15c332703ca150::t_57ddde4a2cafb1 1-224
+skills/system-design/references/技术方案_目录结构说明.md
+  s_15c332703ca150::t_754c427594eebf 1-81
+skills/system-design/references/技术方案_表设计_模板.md
+  s_15c332703ca150::t_d836160783c132 1-199
+skills/system-design/references/评估方案_DOC_模板.md
+  s_15c332703ca150::t_22f958673cd846 1-77
+skills/work-spec/SKILL.md
+  s_15c332703ca150::t_4f32204e2818f2 1-86
+skills/workflow/SKILL.md
+  s_15c332703ca150::t_b4d667cc74d04c 1-173
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "66050a663eb6c1ecbdbbe951f9dbee17a4724f58",
+  "prompts": {},
+  "sessions": {
+    "s_15c332703ca150": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "0280a7f6-fb8b-4cda-94ee-3ea99a1b08ee",
+        "model": "grok-4.6"
+      },
+      "human_author": "yiguo.wang <yiguo.wang@ly.com>"
+    }
+  }
+}
