@@ -1,0 +1,4 @@
+interface:
+  display_name: "真实 E2E 测试"
+  short_description: "从用户链路出发，启动真实应用并核对响应、日志、数据和副作用"
+  default_prompt: "使用 $integration-test 梳理用户链路和追踪矩阵，启动当前代码完成真实端到端测试，并保留可复现证据。"

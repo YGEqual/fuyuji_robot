@@ -1,0 +1,25 @@
+# 本仓产物
+node_modules/
+dist/
+target/
+tmp/
+tmp_dir/
+cache/
+logs/
+.idea/
+.vscode/
+.DS_Store
+
+# 可选软链进本仓的业务仓产物（多根工作区也会各自读 gitignore）
+apps/**/.gradle/
+apps/**/build/
+apps/**/.cxx/
+apps/**/Pods/
+apps/**/DerivedData/
+apps/**/node_modules/
+apps/**/dist/
+apps/**/target/
+apps/**/fastlane/
+apps/**/.idea/
+apps/**/.git/
+apps/**/dailyhole

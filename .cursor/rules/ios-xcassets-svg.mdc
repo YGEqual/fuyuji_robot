@@ -1,0 +1,35 @@
+---
+description: iOS 矢量图标必须放进 imageset；禁止把 SVG 丢在 xcassets 目录旁导致 UIImage 读不到
+globs: "**/*.xcassets/**,**/*.svg,**/drawable*/**"
+alwaysApply: false
+---
+
+# iOS / 双端图标资源挂载
+
+`UIImage(named:)` 和 Asset Catalog **只认 `.imageset`**。把 `ic_xxx.svg` 放在 `Foo.imageset` 外面（即使同目录、文件名一致）等于没加资源，运行时会落到旧 PNG、bundle 里的另一张图，或空白。
+
+## iOS 正确做法（`DiguProject`）
+
+对照已有矢量图标：
+
+```text
+DiguProject/Assets.xcassets/<分组>/ic_xxx.imageset/
+  Contents.json
+  ic_xxx.svg
+```
+
+```json
+{
+  "images": [{ "filename": "ic_xxx.svg", "idiom": "universal" }],
+  "properties": { "preserves-vector-representation": true }
+}
+```
+
+- 禁止：`Assets.xcassets/<分组>/ic_xxx.svg` 与 `ic_xxx.imageset/` 并列。
+- imageset 已改为 SVG 时，删掉同名 `@2x/@3x` PNG，避免 Catalog 继续吃栅格图。
+
+## Android 同步（`fuyuji-android-module`）
+
+当前基线以 PNG 密度图为主：iOS `@2x` → `drawable-xhdpi`，`@3x` → `drawable-xxhdpi`，文件名保持 snake_case。
+
+若同一图标已有 SVG path，优先转成 `res/drawable/*.xml`，不要手绘另一套。**禁止**再放同名 `drawable-xxhdpi/*.png`（密度目录会盖住矢量）。

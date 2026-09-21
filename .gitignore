@@ -1,0 +1,48 @@
+.idea/
+.vscode/
+*.iml
+*.log
+logs/
+.DS_Store
+/cache/
+**/cache/
+node_modules/
+tmp/
+tmp_dir/
+target/
+
+# 个人本地配置（从模板创建，不提交）
+doc/project/LocalPaths_LOCAL.md
+doc/project/Identity_LOCAL.md
+doc/project/**/*_LOCAL.md
+.claude/settings.local.json
+
+# 子仓库（只做本地阅读，不纳入 fuyuji_robot 版本管理）
+# 业务仓保持独立 git；即使被 clone / 软链进本仓也不要提交
+apps/
+DiguProject/
+dailyhole/
+dailyhole-web/
+fuyuji-android-module/
+
+# 其他 AI 工具配置目录（不提交）
+.continue/
+.junie/
+.kiro/
+.pi/
+.qwen/
+.trae/
+.windsurf/
+.agents/
+.workflow/
+.workflow_sdk/
+
+# MCP 本地密钥（从 mcp/.mcp.json.example 复制，不提交）
+.mcp.json
+**/.mcp.json
+.cursor/mcp.json
+
+# 本机市场 skill 软链（绝对路径，不提交）
+.cursor/skills/wecom-robot
+.claude/skills/wecom-robot
+.codex/skills/wecom-robot

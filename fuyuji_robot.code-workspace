@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "name": "fuyuji_robot",
+      "path": "."
+    },
+    {
+      "name": "ios",
+      "path": "../DiguProject"
+    },
+    {
+      "name": "android",
+      "path": "../fuyuji-android-module"
+    },
+    {
+      "name": "web",
+      "path": "../dailyhole-web"
+    },
+    {
+      "name": "backend",
+      "path": "../dailyhole"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.gradle": true,
+      "**/.cxx": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/target": true,
+      "**/Pods": true,
+      "**/DerivedData": true,
+      "**/cache": true
+    },
+    "search.exclude": {
+      "**/.gradle": true,
+      "**/.cxx": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/target": true,
+      "**/Pods": true,
+      "**/DerivedData": true,
+      "**/build": true,
+      "**/cache": true
+    },
+    "files.watcherExclude": {
+      "**/.gradle/**": true,
+      "**/.cxx/**": true,
+      "**/node_modules/**": true,
+      "**/dist/**": true,
+      "**/target/**": true,
+      "**/Pods/**": true,
+      "**/DerivedData/**": true,
+      "**/build/**": true,
+      "**/cache/**": true,
+      "**/fastlane/**": true
+    }
+  }
+}

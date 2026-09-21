@@ -1,0 +1,12 @@
+{
+  "_comment": "复制为 mcp/.mcp.json、仓库根 .mcp.json 和 .cursor/mcp.json，并填入 FIGMA_API_KEY。含密钥的文件已 gitignore。",
+  "mcpServers": {
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "YOUR_FIGMA_API_KEY"
+      }
+    }
+  }
+}
